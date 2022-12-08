@@ -1,0 +1,163 @@
+
+.custom-table > tbody  td{
+    border-left: 0px solid rgba(0, 0, 0, 0) !important;
+    border-right: 0px solid rgba(0, 0, 0, 0) !important;
+}
+
+.btn.x:hover{
+    color: #007bff !important;
+}
+
+.sidebar-menu a:is(:link, :active, :visited).aktif{
+    background: #1415154f !important;
+}
+
+#myDIV .ini-link:is(:link, :active, :visited).aktifed {
+    background: #7b87cfd4 !important;
+    color: white;
+}
+
+.navbar .collapse .nav-link.aktif:hover {
+    color: white !important;
+}
+
+.keluar:hover span{
+    color: white !important;
+}
+
+.activitas{
+    background:linear-gradient(40deg, #e0a318, #3d90e9,#06bb3e) repeat-x !important;
+    color: white;
+}
+
+.daftar{
+    background:linear-gradient(25deg, #06bb3e,#e40000) repeat-x !important;
+    color: white;
+    
+}
+
+.ini p{
+    color: black !important;
+}
+
+.ini:hover p, .ini:hover .titik{
+    color: rgb(26, 51, 192) !important;
+}
+
+.alert.alert-success{
+    background-color: #007bff !important;
+}
+
+.modal-content.x {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    /* border: 1px solid rgba(0, 0, 0, .2); */
+    border-radius: .3rem;
+    outline: 0
+}
+
+.modal-header.x{
+    background: rgba(0, 0, 0, 0);
+    font-size: 20px;
+}
+
+.close.x{
+    color: white !important;
+    width: 70px;
+}
+
+.close.x:hover{
+    color: rgb(177, 6, 6) !important;
+}
+
+.title.x{
+    font-size: .75rem;
+}
+
+figcaption{
+    margin: 10px 0 10px 0;
+    text-align: center;
+    color: #2a292a;
+}
+input[type="file"]{
+    display: none !important;
+}
+.uploadbtn{
+    display: block;
+    position: relative;
+    background-color: #025bee;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    width: 100px;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+@media (min-width:1200px) {
+    .modal-xl.x {
+        max-width: 1340px !important
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-alert {
+        max-width: 390px !important;
+        margin: 1.75rem auto !important;
+    }
+
+    .modal-size {
+        max-width: 450px !important;
+        margin: 1.75rem auto !important;
+    }
+
+    .modal-size.x{
+        max-width: 1450px !important;
+        margin: 0 auto !important;
+    }
+
+    .modal-unggah {
+        max-width: 1150px !important;
+        margin: 1.75rem auto !important;
+
+    }
+
+    .modal-size-video {
+        max-width: 520px !important;
+        margin: 1.75rem auto !important;
+    }
+
+    .modal-dialog-scrollable {
+        max-height: calc(100% - 3.5rem)
+    }
+
+    .modal-dialog-scrollable .modal-content {
+        max-height: calc(100vh - 3.5rem)
+    }
+
+    .modal-dialog-centered {
+        min-height: calc(70% - 3.5rem) !important;
+    }
+
+    .modal-dialog-centered.x{
+        min-height: calc(100%) !important;
+    }
+
+    .modal-dialog-centered::before {
+        height: calc(100vh) !important;
+    }
+
+    .modal-sm {
+        max-width: 300px
+    }
+}
