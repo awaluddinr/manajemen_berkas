@@ -1,9 +1,9 @@
 <?php
 
 
-define('BASEURL', 'http://localhost/manajemen-berkas/assets');
+define('BASEURL', 'http://localhost/manajemen_berkas/assets');
 
-define('URL', 'http://localhost/manajemen-berkas');
+define('URL', 'http://localhost/manajemen_berkas');
 
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
